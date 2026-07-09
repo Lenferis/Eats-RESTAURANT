@@ -6,6 +6,7 @@
 
 body {
     font-family: 'Montserrat', sans-serif;
+    line-height: 1.5;
 }
 
 nav {
@@ -26,6 +27,8 @@ nav {
     font-weight: 600; 
     font-size: 16px;
     color: #000;
+    padding: 10px;
+    display: inline-block;
 }
 
 .navbar__link--active {
@@ -180,7 +183,7 @@ nav {
     font-size: 16px;
     font-weight: 700;
     color: #fff;
-    line-height: 28px;
+    line-height: 1.5;
 }
 
 .order-now__btn-transparent {
@@ -190,7 +193,7 @@ nav {
     border-radius: 10px;
     font-weight: 700;
     color: #fff;
-    line-height: 28px;
+    line-height: 1.5;
     background-color: transparent;
     border: #fff 1px solid;
 }
