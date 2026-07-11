@@ -9,7 +9,7 @@ body {
     line-height: 1.5;
 }
 
-nav {
+.navbar {
     display: flex;
     justify-content: space-between; 
     align-items: center; 
@@ -199,7 +199,7 @@ nav {
 }
 
 
-footer {
+.footer {
     display: flex;
     justify-content: space-between;
     align-items: center;
