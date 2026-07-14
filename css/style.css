@@ -9,6 +9,10 @@ body {
     line-height: 1.5;
 }
 
+a {
+    text-decoration: none;
+    color: inherit;
+}
 .navbar {
     display: flex;
     justify-content: space-between; 
@@ -23,7 +27,6 @@ body {
 }
 
 .navbar__link {
-    text-decoration: none;
     font-weight: 600; 
     font-size: 16px;
     color: #000;
@@ -79,14 +82,17 @@ body {
     gap: 67px;
     
 }
-
+.rest-app__btn,
+.order-now__btn,
+.order-now__btn-transparent {
+    cursor: pointer;
+}
 .rest-app__btn {
     color: #fff;
     padding: 16px 64px;
     font-family: 'Montserrat', sans-serif;
     font-weight: 600;
     font-size: 24px;
-    cursor: pointer;
     border-radius: 30px;
     border: none;
     background-color: #FA4A0C;
